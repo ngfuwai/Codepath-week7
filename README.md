@@ -1,6 +1,6 @@
 # Codepath-week7
 
-My first exploit was from https://klikki.fi/adv/wordpress2.html. I made a comment in the front page, and I pasted an XSS injection into the text field. I then viewed the comment as an admin.
+My first exploit was from https://klikki.fi/adv/wordpress2.html. I made a comment in the front page, and I pasted a super large XSS injection into the text field. I then viewed the comment as an admin. Apparently, the visitor was able to install a backdoor according to the tutorial. 
 
 My second exploit involved pasting <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> into the html editor of WP. Whenever another user hovers over the link, they get an alert.
 
